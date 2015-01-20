@@ -1,0 +1,22 @@
+{
+  "name": "PremiumGolfBooker",
+  "version": "1.0.0",
+  "description": "Steve's Golf Booker",
+  "main": "book.js",
+  "scripts": {
+    "preinstall": "echo preinstall script!",
+    "postinstall": "echo install done - post install script!",
+    "start": "node book.js 8124",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "author": "Stephen Williams",
+  "license": "ISC",
+  "dependencies": {
+    "node-schedule": "*",
+    "python-shell": "*",
+    "express": "*",
+    "mongoose": "~3.6.13",
+    "body-parser": "~1.0.1"
+  }
+}
